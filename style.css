@@ -1,3 +1,20 @@
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation ul{
+    list-style-type: none;
+}
+
 h1 {
     color: blueviolet;
+}
+
+.img-container{
+    text-align: center;
+}
+
+.img-container img{
+    max-width: 50vw;
+    max-height: 35vh;
 }
