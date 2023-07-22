@@ -1,20 +1,39 @@
-.navigation a {
+.nav__item {
     text-decoration: none;
 }
 
-.navigation ul{
+nav ul {
     list-style-type: none;
 }
 
-h1 {
+.main-title {
     color: blueviolet;
 }
 
-.img-container{
+.article, .main-title {
+    max-width: 75%;
+    margin: auto;
+    margin: 3% auto;
+}
+
+.article__container--img {
     text-align: center;
 }
 
-.img-container img{
+.article__img {
     max-width: 50vw;
     max-height: 35vh;
+}
+
+footer{
+    width: 100%;
+    background-color: #c2ebeb;
+}
+
+.footer__container{
+    width: 30vw;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
 }
