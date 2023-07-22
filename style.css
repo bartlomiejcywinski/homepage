@@ -37,3 +37,7 @@ footer{
     text-align: center;
     vertical-align: middle;
 }
+
+.footer__img{
+    max-width: 45%;
+}
