@@ -12,18 +12,18 @@
 <body class="main-site-bg">
     <header>
         <nav class="top-nav">
-            <ul>
-                <li><a class="top-nav__item" href="/index.html">Home</a></li>
-                <li><a class="top-nav__item" href="/portfolio.html">Portfolio</a></li>
-                <li><a class="top-nav__item" href="/about.html">O mnie</a></li>
-                <li><a class="top-nav__item" href="/podstrona.html">Podstrona</a></li>
-                <li><a class="top-nav__item" href="/contact.html">Kontakt</a></li>
+            <ul class="top-nav__unorder-list">
+                <li class="top-nav__list"><a class="top-nav__item" href="/index.html">Home</a></li>
+                <li class="top-nav__list"><a class="top-nav__item" href="/portfolio.html">Portfolio</a></li>
+                <li class="top-nav__list"><a class="top-nav__item" href="/about.html">O mnie</a></li>
+                <li class="top-nav__list"><a class="top-nav__item" href="/podstrona.html">Podstrona</a></li>
+                <li class="top-nav__list"><a class="top-nav__item" href="/contact.html">Kontakt</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <div class="main-title">
-            <h1>Główny nagłówek</h1>
+    <main class="main">
+        <div class="main-title__container">
+            <h1 class="main__title">Główny nagłówek</h1>
         </div>
         <article class="article">
             <h2>Nagłówek artykułu nr 1</h2>
@@ -50,20 +50,16 @@
         </article>
     </main>
     <footer class="footer">
-        <div class="footer__container">
-            <img class="footer-logo__img" src="logo.png" alt="Logo">
-        </div>
-        <div class="footer__container">
-            <nav class="footer__nav">
-                <ul>
-                    <li><a class="footer-nav__item" href="/index.html">Home</a></li>
-                    <li><a class="footer-nav__item" href="/portfolio.html">Portfolio</a></li>
-                    <li><a class="footer-nav__item" href="/about.html">O mnie</a></li>
-                    <li><a class="footer-nav__item" href="/podstrona.html">Podstrona</a></li>
-                    <li><a class="footer-nav__item" href="/contact.html">Kontakt</a></li>
-                </ul>
-            </nav>
-        </div>
+        <img class=" footer__container footer-logo__img" src="logo.png" alt="Logo">
+        <nav class="footer__container footer__nav">
+            <ul class="footer-nav__unorder-list">
+                <li class="footer-nav__list"><a class="footer-nav__item" href="/index.html">Home</a></li>
+                <li class="footer-nav__list"><a class="footer-nav__item" href="/portfolio.html">Portfolio</a></li>
+                <li class="footer-nav__list"><a class="footer-nav__item" href="/about.html">O mnie</a></li>
+                <li class="footer-nav__list"><a class="footer-nav__item" href="/podstrona.html">Podstrona</a></li>
+                <li class="footer-nav__list"><a class="footer-nav__item" href="/contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
         <div class="footer__container">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                 <strong>labore</strong>.
