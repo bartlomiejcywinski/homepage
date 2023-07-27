@@ -1,9 +1,9 @@
-.nav__item {
-    text-decoration: none;
+ul {
+    list-style-type: none;
 }
 
-nav ul {
-    list-style-type: none;
+.top-nav__item, .footer-nav__item {
+    text-decoration: none;
 }
 
 .main-title {
@@ -13,10 +13,6 @@ nav ul {
 .article, .main-title {
     max-width: 75%;
     margin: 3% auto;
-}
-
-.article__container--img {
-    text-align: center;
 }
 
 .article__img {
