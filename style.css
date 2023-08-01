@@ -32,6 +32,11 @@ ul{
     text-decoration: none;
 }
 
+.header{
+    position: sticky;
+    top: 0;
+}
+
 .main-title__container{
     color: rgb(52, 12, 90);
 }
