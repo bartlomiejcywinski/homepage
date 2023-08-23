@@ -107,3 +107,23 @@ footer{
     justify-content: space-around;
     flex-basis: 90%;
 }
+
+@media (max-width: 426px) {
+    .article{
+        grid-column: 2 / 4;
+    }
+}
+
+@media (max-width: 321px) {
+    .main__title{
+        font-size: 1.5rem;
+    }
+
+    h2{
+        margin-top: 0;
+    }
+
+    .main-title__container{
+        margin-top: 25px;
+    }
+}
