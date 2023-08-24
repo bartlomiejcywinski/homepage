@@ -166,3 +166,13 @@ footer{
 .open{
     display: block;
 }
+
+.article__title::before{
+    content: '😎';
+    margin-right: 5px;
+}
+
+.article__title::after{
+    content: '🚲';
+    margin-left: 5px;
+}
