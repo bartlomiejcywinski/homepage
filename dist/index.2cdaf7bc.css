@@ -1,0 +1,175 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.main-site-bg {
+  background: radial-gradient(circle, #3f5efb 0%, #fc4684 100%);
+}
+
+.top-nav {
+  background-color: beige;
+  padding: 16px 5%;
+}
+
+.top-nav__unorder-list {
+  justify-content: end;
+  gap: 20px;
+  display: flex;
+}
+
+.top-nav__list {
+  flex-basis: 5%;
+  justify-content: center;
+  min-width: 50px;
+  display: flex;
+}
+
+.top-nav__item, .footer-nav__item {
+  text-decoration: none;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+}
+
+.main {
+  grid-template-columns: 10% 1fr 1fr 10%;
+  gap: 1rem;
+  display: grid;
+}
+
+.main-title__container {
+  color: #340c5a;
+  grid-column: 2 / 4;
+}
+
+.article--first-column {
+  grid-column: 2 / 3;
+}
+
+.article--second-column {
+  grid-column: 3 / 4;
+}
+
+.main__title {
+  background-color: #7fffd4;
+  border-radius: 20px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.article__img {
+  max-width: 50vw;
+  max-height: 35vh;
+}
+
+footer {
+  background-color: #c2ebeb;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.footer__box {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75%;
+  display: flex;
+}
+
+.footer-logo__img {
+  max-width: 25%;
+}
+
+.footer__container {
+  flex-basis: 25%;
+}
+
+.footer__nav {
+  display: flex;
+}
+
+.footer-nav__unorder-list {
+  flex-wrap: wrap;
+  flex-basis: 90%;
+  justify-content: space-around;
+  display: flex;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (width <= 426px) {
+  .article {
+    grid-column: 2 / 4;
+  }
+}
+
+@media (width <= 376px) {
+  .top-nav__unorder-list {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .top-nav {
+    width: 100%;
+    padding: 16px 0;
+    display: none;
+    position: absolute;
+    top: 39px;
+  }
+
+  .header {
+    background-color: beige;
+    justify-content: flex-end;
+    min-height: 39px;
+    display: flex;
+  }
+
+  .hamburger {
+    background: none;
+    border: 0;
+    margin: 10px;
+    font-size: 1.6rem;
+    display: block;
+  }
+}
+
+@media (width <= 321px) {
+  .main__title {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  .main-title__container {
+    margin-top: 25px;
+  }
+}
+
+.display-none {
+  display: none;
+}
+
+.open {
+  display: block;
+}
+
+.article__title:before {
+  content: "😎";
+  margin-right: 5px;
+}
+
+.article__title:after {
+  content: "🚲";
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
