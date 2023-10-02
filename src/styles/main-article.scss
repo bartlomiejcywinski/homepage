@@ -19,8 +19,8 @@
     }
 
     &-site-bg {
-        background: rgb(63, 94, 251);
-        background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 132, 1) 100%);
+        background: var(--mainBackgroundColor);
+        color: var(--textColor);
     }
 
     @media (max-width: $mobileS) {
