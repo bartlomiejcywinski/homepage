@@ -1,0 +1,41 @@
+@import 'variables.scss';
+
+.footer {
+    width: 100%;
+    background-color: #7fe7e7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 75%;
+    }
+
+    &__container {
+        flex-basis: 25%;
+    }
+
+    &__nav {
+        display: flex;
+    }
+
+    &-logo__img {
+        max-width: 25%;
+    }
+
+    &-nav {
+        &__unorder-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            flex-basis: 90%;
+        }
+
+        &__item {
+            text-decoration: none;
+        }
+    }
+}

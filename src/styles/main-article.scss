@@ -1,0 +1,63 @@
+@import 'variables.scss';
+
+.main {
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 10%;
+    gap: 1rem;
+
+    &__title {
+        background-color: aquamarine;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    &-title__container {
+        color: rgb(52, 12, 90);
+        grid-column: 2 / 4;
+    }
+
+    &-site-bg {
+        background: rgb(63, 94, 251);
+        background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 132, 1) 100%);
+    }
+
+    @media (max-width: $mobileS) {
+        &__title {
+            font-size: 1.5rem;
+        }
+
+        &-title__container {
+            margin-top: 25px;
+        }
+    }
+}
+
+.article {
+    &__img {
+        max-width: 50vw;
+        max-height: 35vh;
+    }
+
+    &--first-column {
+        grid-column: 2 / 3;
+    }
+
+    &--second-column {
+        grid-column: 3 / 4;
+    }
+
+    &__title::before {
+        content: '😎';
+        margin-right: 5px;
+    }
+
+    &__title::after {
+        content: '🚲';
+        margin-left: 5px;
+    }
+
+    @media (max-width: $mobileL) {
+        grid-column: 2 / 4;
+    }
+}

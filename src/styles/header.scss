@@ -1,0 +1,48 @@
+@import 'variables.scss';
+
+.top-nav {
+    background-color: beige;
+    padding: 16px 5%;
+
+    &__unorder-list {
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+    }
+
+    &__list {
+        display: flex;
+        flex-basis: 5%;
+        justify-content: center;
+        min-width: 50px;
+    }
+
+    &__item {
+        text-decoration: none;
+    }
+
+    @media (max-width: $mobileM) {
+        display: none;
+        position: absolute;
+        top: 39px;
+        width: 100%;
+        padding: 16px 0;
+
+        &__unorder-list {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+.header {
+    position: sticky;
+    top: 0;
+
+    @media (max-width: $mobileM) {
+        min-height: 39px;
+        background-color: beige;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
