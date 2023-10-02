@@ -23,11 +23,13 @@
         color: var(--textColor);
     }
 
-    @media (max-width: $mobileS) {
+    @media screen and (max-width: $mobileS){
         &__title {
             font-size: 1.5rem;
         }
+    }
 
+    @media (max-width: $mobileS) {
         &-title__container {
             margin-top: 25px;
         }

@@ -21,7 +21,7 @@
         text-decoration: none;
     }
 
-    @media screen and (max-width: $mobileS) {
+    @media screen and (max-width: $mobileL) {
         display: none;
         position: absolute;
         top: 39px;
@@ -39,7 +39,7 @@
     position: sticky;
     top: 0;
 
-    @media screen and (max-width: $mobileS) {
+    @media screen and (max-width: $mobileL) {
         min-height: 39px;
         background-color: beige;
         display: flex;

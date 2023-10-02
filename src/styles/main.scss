@@ -15,12 +15,15 @@ ul {
 .hamburger {
     display: none;
 
-    @media (max-width: $mobileM) {
+    @media (max-width: $mobileL) {
         display: block;
         background: none;
         border: 0;
-        font-size: 1.6rem;
         margin: 10px;
+    }
+
+    @media screen and (max-width: $mobileM) {
+        font-size: 1.1rem;
     }
 }
 
