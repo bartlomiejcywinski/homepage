@@ -1,5 +1,6 @@
 import { toggle } from "./hamburger";
-import {dayOfWeek} from "./dayInWeek";
+import { dayOfWeek } from "./dayInWeek";
+import { substractNumbers } from "./substractTwoNumbers";
 
 let getContainerJs = document.querySelector('.article__container--js');
 
@@ -17,4 +18,6 @@ function greeting(name, age) {
 greeting('Bartek', 9999);
 
 
-console.log(dayOfWeek);
+// console.log(dayOfWeek);
+
+console.log(substractNumbers(1020,99));
