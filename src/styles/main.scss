@@ -10,8 +10,6 @@ ul {
     padding: 0;
 }
 
-
-
 .hamburger {
     display: none;
 
@@ -19,11 +17,8 @@ ul {
         display: block;
         background: none;
         border: 0;
+        font-size: 1.6rem;
         margin: 10px;
-    }
-
-    @media screen and (max-width: $mobileM) {
-        font-size: 1.1rem;
     }
 }
 
